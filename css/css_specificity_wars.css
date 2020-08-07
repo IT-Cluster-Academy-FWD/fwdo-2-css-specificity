@@ -1,0 +1,27 @@
+p#darth-vader {
+  color: red;
+}
+
+body p#darth-vader.description {
+  color: darkblue;
+}
+
+p#darth-vader.description {
+  color: pink;
+}
+
+
+#darth-vader {
+  color: white;
+}
+
+p {
+  background-color: red;
+  color: #ffffff !important;
+  font-style: oblique;
+  font-weight: 600;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+

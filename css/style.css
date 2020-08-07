@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  color: red;
+}
+
+.description {
+  color: aqua;
+}
+
+#sub-heading {
+  color: blueviolet;
+}
+
+.main-description {
+  padding: 20px;
+}
+
+nav ul li > p {
+  color: darkorange;
+}
+
+nav ul li p {
+  color: chartreuse;
+}
+
+footer p.green + p {
+  color: green;
+}
+
+.navigation p.navigation-description {
+  color: hotpink;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+footer p:first-child {
+  color: red;
+}
+
+footer p:nth-child(2) {
+  color: blue;
+}
+
+.email-field:focus {
+  background-color: black;
+  color: white;
+  outline: 2px solid gold;
+}
+
+.email-field:disabled {
+  background-color: red;
+}
+
+.pseudo-selectors::before {
+  content: "<<";
+  color: aquamarine;
+}
+
+.pseudo-selectors::after {
+  content: ">>";
+  color: blanchedalmond;
+}
+
+
+[target="_blank"] {
+  background-color: white;
+}
+
+[title~="cool"] {
+  background-color: teal;
+}
+
+[title^="This"] {
+  background-color: tomato;
+}
+
